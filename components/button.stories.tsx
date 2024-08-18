@@ -1,5 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { Button } from "./button";
+import { Icons } from "./icons";
 
 const meta: Meta<typeof Button> = {
   title: "Button",
@@ -46,5 +47,13 @@ export const Destructive: Story = {
 export const Outline: Story = {
   args: {
     variant: "outline",
+  },
+};
+
+export const Icon: Story = {
+  args: {
+    children: <Icons.Settings size={22} />,
+    size: "icon",
+    variant: "ghost",
   },
 };
