@@ -36,3 +36,9 @@ export const Secondary: Story = {
     variant: "secondary",
   },
 };
+
+export const Outline: Story = {
+  args: {
+    variant: "outline",
+  },
+};
