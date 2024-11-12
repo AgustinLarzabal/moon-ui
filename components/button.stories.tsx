@@ -30,3 +30,10 @@ export const Destructive: Story = {
     variant: "destructive",
   },
 };
+
+export const Outline: Story = {
+  args: {
+    children: "Button",
+    variant: "outline",
+  },
+};
