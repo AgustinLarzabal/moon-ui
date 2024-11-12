@@ -16,3 +16,10 @@ export const Primary: Story = {
     children: "Save",
   },
 };
+
+export const Secondary: Story = {
+  args: {
+    children: "Button",
+    variant: "secondary",
+  },
+};
