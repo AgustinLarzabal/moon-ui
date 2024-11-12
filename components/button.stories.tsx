@@ -37,3 +37,10 @@ export const Outline: Story = {
     variant: "outline",
   },
 };
+
+export const Link: Story = {
+  args: {
+    children: "Button",
+    variant: "link",
+  },
+};
