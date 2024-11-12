@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { Heart } from "lucide-react";
 
 import { Button } from "@/components/button";
 
@@ -49,5 +50,13 @@ export const Link: Story = {
   args: {
     children: "Button",
     variant: "link",
+  },
+};
+
+export const Icon: Story = {
+  args: {
+    children: <Heart />,
+    variant: "outline",
+    size: "icon",
   },
 };
